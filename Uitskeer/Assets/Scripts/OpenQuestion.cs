@@ -1,8 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-
 
 
 /// <summary>
@@ -30,7 +26,7 @@ public class OpenQuestion : MonoBehaviour
         questionAnswered = newValue;
         Debug.Log(questionAnswered);
 
-        if (questionAnswered == goodAnswer)
+        if (questionAnswered.ToLower() == goodAnswer.ToLower())
         {
             Debug.Log("GOOD ANSWER FOR " + gameObject.name);
         }
