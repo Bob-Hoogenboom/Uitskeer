@@ -7,11 +7,11 @@ using UnityEngine;
 /// I suggest setting the good answer to something other than ""
 /// this will make it possible to check if answer haven't been filled in yet so it returns a warning
 /// </summary>
-public class OpenQuestion : MonoBehaviour
+public class OpenQuestion : MonoBehaviour, IQuestion
 {
     [SerializeField] string goodAnswer = "";
     [SerializeField] string questionAnswered = "";
-
+    [SerializeField] TMPro.TMP_InputField inputField;
 
     private void Start()
     {
@@ -32,6 +32,12 @@ public class OpenQuestion : MonoBehaviour
         }
     }
 
+
+    public void Reset()
+    {
+        questionAnswered = "";
+        inputField.text = "";
+    }
 
     public bool CheckAnswer()
     {

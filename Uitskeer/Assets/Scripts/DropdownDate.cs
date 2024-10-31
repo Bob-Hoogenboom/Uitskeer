@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 using static UnityEditor.Progress;
@@ -8,7 +9,7 @@ using static UnityEditor.Progress;
 
 
 // describes a dropdown menu that acts like a binairi search tree
-public class DropdownDate : MonoBehaviour
+public class DropdownDate : MonoBehaviour, IQuestion
 {
     [SerializeField] int answerDay = 0;
     [SerializeField] int answerMonth = 0;

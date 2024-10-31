@@ -7,7 +7,7 @@ using UnityEngine;
 /// I suggest setting the yes answer to 1 and the no answer to 2
 /// this will make it possible to check if answer haven't been filled in yet so it returns 0
 /// </summary>
-public class MultipleChoice : MonoBehaviour
+public class MultipleChoice : MonoBehaviour, IQuestion
 {
     [Tooltip("0 = Not filled in, 1 = yes, 2 = no. PS. if the questionm is altered this may differ")]
     [SerializeField] private int correctAnswer = 0;
@@ -26,6 +26,11 @@ public class MultipleChoice : MonoBehaviour
     {
         answer = value;
         Debug.Log(answer);
+    }
+
+    public void Reset()
+    {
+        answer = 0;
     }
 
     public bool CheckAnswer()
