@@ -714,6 +714,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   goodAnswer: 
   questionAnswered: 
+  inputField: {fileID: 7666335734729233254}
 --- !u!1 &7633435241434981201
 GameObject:
   m_ObjectHideFlags: 0
