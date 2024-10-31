@@ -459,11 +459,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 75933272}
   m_CullTransparentMesh: 1
---- !u!1 &83109405 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6973509230661086273, guid: 4655525d773685746b7a3660bbb5cfce, type: 3}
-  m_PrefabInstance: {fileID: 1748633966}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &102548440 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6117891891476351151, guid: 86dacf41564c35548ab8903ca32a6d48, type: 3}
@@ -2634,7 +2629,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6979041699829137177, guid: 4655525d773685746b7a3660bbb5cfce, type: 3}
       propertyPath: m_text
-      value: xx xxxxx hn
+      value: nnxxxxx hn
       objectReference: {fileID: 0}
     - target: {fileID: 7230550500944420679, guid: 4655525d773685746b7a3660bbb5cfce, type: 3}
       propertyPath: goodAnswer
@@ -3633,7 +3628,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1961567484662926878, guid: 86dacf41564c35548ab8903ca32a6d48, type: 3}
       propertyPath: correctAnswer
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2146318115441078480, guid: 86dacf41564c35548ab8903ca32a6d48, type: 3}
       propertyPath: m_text
@@ -5282,9 +5277,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8993104782661637410, guid: 86dacf41564c35548ab8903ca32a6d48, type: 3}
       propertyPath: m_text
-      value: 5. At a prior query, the you broached [eerder antwoord] as the precise
-        point of termination or transformation of your contract of employment. Does
-        this point represent a juncture at which you would have contributed labor?
+      value: 5. At a prior query, the you broached (17/10/2024) as the precise point
+        of termination or transformation of your contract of employment. Does this
+        point represent a juncture at which you would have contributed labor?
       objectReference: {fileID: 0}
     - target: {fileID: 8993104782661637410, guid: 86dacf41564c35548ab8903ca32a6d48, type: 3}
       propertyPath: m_fontSize
@@ -6112,7 +6107,6 @@ MonoBehaviour:
   questionObjects:
   - {fileID: 349001801}
   - {fileID: 801464184}
-  - {fileID: 83109405}
   nextPage: {fileID: 126145744}
   prevPage: {fileID: 1815182221}
   nextButton: {fileID: 518702208}
