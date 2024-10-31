@@ -771,6 +771,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   correctAnswer: 0
   answer: 0
+  Yes: {fileID: 1829918245643947743}
+  No: {fileID: 5916477817581709626}
+  on: {fileID: 21300000, guid: 952856eb0b872f94c8750878f1079f8e, type: 3}
+  off: {fileID: 21300000, guid: 945ffa1d1752ae0479b411a50b82f45d, type: 3}
 --- !u!222 &4751768428210549012
 CanvasRenderer:
   m_ObjectHideFlags: 0

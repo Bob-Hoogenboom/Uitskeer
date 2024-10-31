@@ -1,4 +1,6 @@
+using Microsoft.Unity.VisualStudio.Editor;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 /// <summary>
@@ -12,7 +14,10 @@ public class MultipleChoice : MonoBehaviour, IQuestion
     [Tooltip("0 = Not filled in, 1 = yes, 2 = no. PS. if the questionm is altered this may differ")]
     [SerializeField] private int correctAnswer = 0;
     [SerializeField] private int answer = 0;
-
+    [SerializeField] private Button Yes;
+    [SerializeField] private Button No;
+    [SerializeField] private Sprite on;
+    [SerializeField] private Sprite off;
 
     private void Start()
     {
@@ -31,6 +36,9 @@ public class MultipleChoice : MonoBehaviour, IQuestion
     public void Reset()
     {
         answer = 0;
+        
+        Yes.image.overrideSprite = off;
+        No.image.overrideSprite = off;
     }
 
     public bool CheckAnswer()
