@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DropdownQuestion : MonoBehaviour
+public class DropdownQuestion : MonoBehaviour, IQuestion
 {
     [SerializeField] TMPro.TMP_Dropdown dropDown;
 
@@ -18,7 +18,14 @@ public class DropdownQuestion : MonoBehaviour
         dropDown.AddOptions(optionsList);
     }
 
-    private bool CheckAnswer()
+
+    public void Reset()
+    {
+        dropDown.value = 0;
+        dropDown.RefreshShownValue();
+    }
+
+    public bool CheckAnswer()
     {
         string currentOption = dropDown.options[dropDown.value].text;
 
