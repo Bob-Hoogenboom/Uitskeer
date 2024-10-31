@@ -3413,7 +3413,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1961567484662926878, guid: 86dacf41564c35548ab8903ca32a6d48, type: 3}
       propertyPath: correctAnswer
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2146318115441078480, guid: 86dacf41564c35548ab8903ca32a6d48, type: 3}
       propertyPath: m_text
@@ -3517,9 +3517,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8993104782661637410, guid: 86dacf41564c35548ab8903ca32a6d48, type: 3}
       propertyPath: m_text
-      value: Regarding the alteration of thine professional engagement, would it
-        better be chronicled as a whole cessation, or, by contrast, as a mere prudent
-        attenuation of the magnitude of labor perceived as thine culpability?
+      value: 2. Regarding the alteration of thine professional engagement, would
+        it better be chronicled as a whole cessation, or, by contrast, as a mere
+        prudent attenuation of the magnitude of labor perceived as thine culpability?
       objectReference: {fileID: 0}
     - target: {fileID: 8993104782661637410, guid: 86dacf41564c35548ab8903ca32a6d48, type: 3}
       propertyPath: m_fontSize
@@ -3874,7 +3874,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5351347789717857270, guid: f8e1a8820ba4ac242823d422dead14df, type: 3}
       propertyPath: m_text
-      value: 'What is the juncture that is neither preparatory to nor in the wake
+      value: '3. What is the juncture that is neither preparatory to nor in the wake
         of you either having been ousted from or, as a conservative estimate, experienced
         a diminishment in the occupation you hitherto referred to as yours? '
       objectReference: {fileID: 0}
@@ -4271,6 +4271,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -7
       objectReference: {fileID: 0}
+    - target: {fileID: 1961567484662926878, guid: 86dacf41564c35548ab8903ca32a6d48, type: 3}
+      propertyPath: correctAnswer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2146318115441078480, guid: 86dacf41564c35548ab8903ca32a6d48, type: 3}
       propertyPath: m_text
       value: Yes
@@ -4365,8 +4369,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8993104782661637410, guid: 86dacf41564c35548ab8903ca32a6d48, type: 3}
       propertyPath: m_text
-      value: Is the principal establishment maintained by thine whilom employer primarily
-        based and officially constituted outside the bounds of this country?
+      value: 3. Is the principal establishment maintained by thine whilom employer
+        primarily based and officially constituted outside the bounds of this country?
       objectReference: {fileID: 0}
     - target: {fileID: 8993104782661637410, guid: 86dacf41564c35548ab8903ca32a6d48, type: 3}
       propertyPath: m_fontSize
@@ -4409,6 +4413,10 @@ PrefabInstance:
     - target: {fileID: 693851314578232318, guid: 86dacf41564c35548ab8903ca32a6d48, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1961567484662926878, guid: 86dacf41564c35548ab8903ca32a6d48, type: 3}
+      propertyPath: correctAnswer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2537721190404371160, guid: 86dacf41564c35548ab8903ca32a6d48, type: 3}
       propertyPath: m_Pivot.x
@@ -4496,7 +4504,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8993104782661637410, guid: 86dacf41564c35548ab8903ca32a6d48, type: 3}
       propertyPath: m_text
-      value: At a prior query, the you broached [eerder antwoord] as the precise
+      value: 5. At a prior query, the you broached [eerder antwoord] as the precise
         point of termination or transformation of your contract of employment. Does
         this point represent a juncture at which you would have contributed labor?
       objectReference: {fileID: 0}
@@ -6165,7 +6173,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3540040791457444844, guid: 4655525d773685746b7a3660bbb5cfce, type: 3}
       propertyPath: m_text
-      value: Just as we require the exact concatenation of phonemes and syllables
+      value: 1. Just as we require the exact concatenation of phonemes and syllables
         constituting the appellation you are regularly heralded with, it is requisite
         that particulars of similar character are furnished for the auxiliary supplementing
         your erstwhile professional arrangement. Prithee be mindful that this information
@@ -6444,7 +6452,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3540040791457444844, guid: 4655525d773685746b7a3660bbb5cfce, type: 3}
       propertyPath: m_text
-      value: Please provide a well-considered approximation of the average lapse
+      value: 6. Please provide a well-considered approximation of the average lapse
         of time typically spent within each seven-day period over the span of the
         two moon cycles preceding the conclusion of your employment.
       objectReference: {fileID: 0}
@@ -6846,6 +6854,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -8
       objectReference: {fileID: 0}
+    - target: {fileID: 1961567484662926878, guid: 86dacf41564c35548ab8903ca32a6d48, type: 3}
+      propertyPath: correctAnswer
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2146318115441078480, guid: 86dacf41564c35548ab8903ca32a6d48, type: 3}
       propertyPath: m_text
       value: Yes
@@ -6940,7 +6952,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8993104782661637410, guid: 86dacf41564c35548ab8903ca32a6d48, type: 3}
       propertyPath: m_text
-      value: 'Expound the nature of your contractual obligation: Would you characterize
+      value: '2. Expound the nature of your contractual obligation: Would you characterize
         this as contingent or provisional, or had you been tenured?'
       objectReference: {fileID: 0}
     - target: {fileID: 8993104782661637410, guid: 86dacf41564c35548ab8903ca32a6d48, type: 3}
@@ -7215,7 +7227,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8993104782661637410, guid: 86dacf41564c35548ab8903ca32a6d48, type: 3}
       propertyPath: m_text
-      value: In reference to the working week hosting the point in time aforementioned
+      value: 7. In reference to the working week hosting the point in time aforementioned
         a duplet of questions ago, that is to say, the initial seven-day period within
         which your contractual obligation touting labor for lucre was discontinued,
         did the aggregation of labor time within said period exceed 1680 minutes?
@@ -7490,8 +7502,8 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3540040791457444844, guid: 4655525d773685746b7a3660bbb5cfce, type: 3}
       propertyPath: m_text
-      value: Could you furnish us a means of contiguity with thine quondam site of
-        employment through mobile phone, particularly the precise integer required
+      value: 4. Could you furnish us a means of contiguity with thine quondam site
+        of employment through mobile phone, particularly the precise integer required
         to attain such correspondence?
       objectReference: {fileID: 0}
     - target: {fileID: 3540040791457444844, guid: 4655525d773685746b7a3660bbb5cfce, type: 3}
@@ -7762,6 +7774,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -2.0001
       objectReference: {fileID: 0}
+    - target: {fileID: 1961567484662926878, guid: 86dacf41564c35548ab8903ca32a6d48, type: 3}
+      propertyPath: correctAnswer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2537721190404371160, guid: 86dacf41564c35548ab8903ca32a6d48, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -7848,8 +7864,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8993104782661637410, guid: 86dacf41564c35548ab8903ca32a6d48, type: 3}
       propertyPath: m_text
-      value: Would you estimate your professional commitments to have followed a
-        methodical model concerning their abundance in conjunction with their precise
+      value: 4. Would you estimate your professional commitments to have followed
+        a methodical model concerning their abundance in conjunction with their precise
         associated days of occurrence?
       objectReference: {fileID: 0}
     - target: {fileID: 8993104782661637410, guid: 86dacf41564c35548ab8903ca32a6d48, type: 3}
@@ -8708,7 +8724,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8993104782661637410, guid: 86dacf41564c35548ab8903ca32a6d48, type: 3}
       propertyPath: m_text
-      value: "Ought the essence of thine m\xE9tier be elucidated as transient?"
+      value: "1. Ought the essence of thine m\xE9tier be elucidated as transient?"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8730,7 +8746,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3540040791457444844, guid: 4655525d773685746b7a3660bbb5cfce, type: 3}
       propertyPath: m_text
-      value: We would value the prospect of soliciting you to confer an elucidation
+      value: 5. We would value the prospect of soliciting you to confer an elucidation
         as to the precise temporal juncture or approximate chronological context
         that heralded the inception of your vocational journey and affiliation with
         this specific establishment.
