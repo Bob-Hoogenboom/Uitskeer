@@ -18,6 +18,10 @@ public class DropdownDate : MonoBehaviour, IQuestion
     [SerializeField] string playerAnswer;
     [SerializeField] TMPro.TMP_Dropdown dropDown;
 
+    public Color wrongColor = new Color(255, 192, 192);
+
+    [SerializeField] Image Image;
+
     string answer;
 
     // edges of beginning of the tree
@@ -146,5 +150,14 @@ public class DropdownDate : MonoBehaviour, IQuestion
             return false;
         }
 
+    }
+
+    public void TurnRed()
+    {
+        Image.color = new Color(1, 0.71f, 0.71f);
+    }
+    public void TurnNormal()
+    {
+        Image.color = new Color(0.95f, 0.95f, 0.95f);
     }
 }

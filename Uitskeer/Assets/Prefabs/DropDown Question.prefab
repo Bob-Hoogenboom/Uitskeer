@@ -598,6 +598,8 @@ MonoBehaviour:
   dropDown: {fileID: 3891830864660230143}
   optionsList: []
   correctAnswer: 
+  Image: {fileID: 8027520817309756188}
+  wrongColor: {r: 255, g: 192, b: 192, a: 1}
 --- !u!1 &2450892310618473044
 GameObject:
   m_ObjectHideFlags: 0

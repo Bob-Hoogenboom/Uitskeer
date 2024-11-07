@@ -706,6 +706,7 @@ MonoBehaviour:
   answerYear: 2000
   playerAnswer: 
   dropDown: {fileID: 5769394938306528327}
+  Image: {fileID: 7170884392938806016}
   startDate: 1960
   endDate: 2025
 --- !u!1 &4342035674895336525

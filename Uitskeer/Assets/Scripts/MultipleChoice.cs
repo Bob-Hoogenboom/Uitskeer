@@ -18,6 +18,10 @@ public class MultipleChoice : MonoBehaviour, IQuestion
     [SerializeField] private Sprite on;
     [SerializeField] private Sprite off;
 
+    public Color wrongColor = new Color(255, 192, 192);
+
+    [SerializeField] Image Image;
+
     private void Start()
     {
         if (correctAnswer == 0)
@@ -50,5 +54,15 @@ public class MultipleChoice : MonoBehaviour, IQuestion
         {
             return false;
         }
+    }
+
+
+    public void TurnRed()
+    {
+        Image.color = new Color(1, 0.71f, 0.71f);
+    }
+    public void TurnNormal()
+    {
+        Image.color = new Color(0.95f, 0.95f, 0.95f);
     }
 }

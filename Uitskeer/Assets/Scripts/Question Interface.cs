@@ -6,6 +6,6 @@ public interface IQuestion
 {
     bool CheckAnswer();
     void Reset();
-
-
+    void TurnRed();
+    void TurnNormal();
 }

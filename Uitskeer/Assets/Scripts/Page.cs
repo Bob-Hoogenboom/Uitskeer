@@ -81,8 +81,20 @@ public class Page : MonoBehaviour
     {
         foreach (IQuestion question in questions)
         {
-            question.Reset();
+            if (!question.CheckAnswer())
+            {
+                question.TurnRed();
+                question.Reset();
+            }
+            else
+            {
+                question.TurnNormal();
+            }
+
         }
     }
+
+
+    
 
 }

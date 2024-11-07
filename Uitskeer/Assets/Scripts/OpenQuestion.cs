@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using UnityEngine.UI;
 
 /// <summary>
 /// Script for open questions 
@@ -12,6 +12,10 @@ public class OpenQuestion : MonoBehaviour, IQuestion
     [SerializeField] string goodAnswer = "";
     [SerializeField] string questionAnswered = "";
     [SerializeField] TMPro.TMP_InputField inputField;
+
+    public Color wrongColor = new Color(255, 192, 192);
+
+    [SerializeField] Image Image;
 
     private void Start()
     {
@@ -50,5 +54,14 @@ public class OpenQuestion : MonoBehaviour, IQuestion
         {
             return false;
         }
+    }
+
+    public void TurnRed()
+    {
+        Image.color = new Color(1, 0.71f, 0.71f);
+    }
+    public void TurnNormal()
+    {
+        Image.color = new Color(0.95f, 0.95f, 0.95f);
     }
 }

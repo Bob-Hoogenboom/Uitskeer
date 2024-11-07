@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DropdownQuestion : MonoBehaviour, IQuestion
 {
@@ -8,6 +9,8 @@ public class DropdownQuestion : MonoBehaviour, IQuestion
 
     [SerializeField] List<string> optionsList;
     [SerializeField] string correctAnswer;
+    [SerializeField] Image Image;
+    public Color wrongColor = new Color(255, 192, 192);
 
 
 
@@ -39,6 +42,13 @@ public class DropdownQuestion : MonoBehaviour, IQuestion
         }
     }
 
-
+    public void TurnRed()
+    {
+        Image.color = new Color(1, 0.71f, 0.71f);
+    }
+    public void TurnNormal()
+    {
+        Image.color = new Color (0.95f, 0.95f, 0.95f);
+    }
 
 }
