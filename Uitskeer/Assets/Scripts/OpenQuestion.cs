@@ -1,3 +1,4 @@
+using System.Text.RegularExpressions;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -45,8 +46,15 @@ public class OpenQuestion : MonoBehaviour, IQuestion
 
     public bool CheckAnswer()
     {
+        questionAnswered.ToLower();
+        goodAnswer.ToLower();
+
+        goodAnswer = Regex.Replace(goodAnswer, "[^a-zA-Z0-9]", "");
+        questionAnswered = Regex.Replace(questionAnswered, "[^a-zA-Z0-9]", "");
+
+
         // check if answer is equal to solution
-        if (questionAnswered.Equals(goodAnswer, System.StringComparison.OrdinalIgnoreCase))
+        if (goodAnswer == questionAnswered)
         {
             return true;
         }

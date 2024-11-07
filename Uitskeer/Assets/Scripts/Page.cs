@@ -80,6 +80,7 @@ public class Page : MonoBehaviour
 
     private void ResetQuestions()
     {
+
         foreach (IQuestion question in questions)
         {
             if (!question.CheckAnswer())
