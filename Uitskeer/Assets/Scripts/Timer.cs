@@ -1,7 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.Events;
 
 
 // logic for the timer
@@ -9,6 +7,8 @@ public class Timer : MonoBehaviour
 {
     [SerializeField] TMPro.TMP_Text displayText;
     [SerializeField] float startSec;
+
+    public UnityEvent onTimerEnd;
 
     private float currentTime;
     private bool paused = false;
@@ -69,7 +69,13 @@ public class Timer : MonoBehaviour
             SetTimer();
 
             timerOverEffect();
+            onTimerEnd.Invoke();
         }
+    }
+
+    public void TimePenalty(float penalty)
+    {
+        currentTime -= penalty;
     }
 
 
