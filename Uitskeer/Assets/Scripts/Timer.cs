@@ -8,6 +8,7 @@ public class Timer : MonoBehaviour
     [SerializeField] TMPro.TMP_Text displayText;
     [SerializeField] float startSec;
 
+    public UnityEvent onTimerPause;
     public UnityEvent onTimerEnd;
 
     private float currentTime;
@@ -61,27 +62,22 @@ public class Timer : MonoBehaviour
         }
         else if (currentTime > 0 && paused)
         {
-            return;
+            onTimerEnd.Invoke();
+            currentTime = 0;
+            SetTimer();
         }
         else
         {
             currentTime = 0;
             SetTimer();
 
-            TimerOverEffect();
+            onTimerEnd.Invoke();
+            paused = true;
         }
     }
 
     public void TimePenalty(float penalty)
     {
         currentTime -= penalty;
-    }
-
-
-    //TODO add effects of timer running out
-    public void TimerOverEffect()
-    {
-        onTimerEnd.Invoke();
-        paused = true;
     }
 }
