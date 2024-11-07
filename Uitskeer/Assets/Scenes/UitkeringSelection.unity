@@ -5245,7 +5245,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8093156223113219308, guid: 4ad29f6bc80004440aa1024fd30f64a5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8093156223113219308, guid: 4ad29f6bc80004440aa1024fd30f64a5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -5257,11 +5257,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8093156223113219308, guid: 4ad29f6bc80004440aa1024fd30f64a5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LoadForumScene
+      value: LoadNextScene
       objectReference: {fileID: 0}
     - target: {fileID: 8093156223113219308, guid: 4ad29f6bc80004440aa1024fd30f64a5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: BenefitMenu, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8093156223113219308, guid: 4ad29f6bc80004440aa1024fd30f64a5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8093156223113219308, guid: 4ad29f6bc80004440aa1024fd30f64a5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
