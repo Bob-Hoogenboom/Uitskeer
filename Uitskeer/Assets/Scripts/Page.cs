@@ -13,6 +13,7 @@ public class Page : MonoBehaviour
     [SerializeField] UnityEngine.UI.Button nextButton;
     [SerializeField] UnityEngine.UI.Button prevButton;
 
+    [SerializeField] Timer timer;
     [SerializeField] GameObject wrongAnswer;
 
     private List<IQuestion> questions = new List<IQuestion>();
@@ -84,6 +85,7 @@ public class Page : MonoBehaviour
             if (!question.CheckAnswer())
             {
                 question.TurnRed();
+                timer.TimePenalty(60f);
                 question.Reset();
             }
             else

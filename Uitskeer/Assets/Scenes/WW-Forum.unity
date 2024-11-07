@@ -182,6 +182,7 @@ MonoBehaviour:
   prevPage: {fileID: 2094007606}
   nextButton: {fileID: 2043875985}
   prevButton: {fileID: 1136683234}
+  timer: {fileID: 825995873}
   wrongAnswer: {fileID: 1808558880}
 --- !u!1 &11630302
 GameObject:
@@ -528,6 +529,7 @@ MonoBehaviour:
   prevPage: {fileID: 126145744}
   nextButton: {fileID: 186461847}
   prevButton: {fileID: 565654146}
+  timer: {fileID: 825995873}
   wrongAnswer: {fileID: 1659886374}
 --- !u!1 &126145744
 GameObject:
@@ -589,6 +591,7 @@ MonoBehaviour:
   prevPage: {fileID: 1038721131}
   nextButton: {fileID: 414045305}
   prevButton: {fileID: 1085938043}
+  timer: {fileID: 825995873}
   wrongAnswer: {fileID: 793701131}
 --- !u!1 &131647221 stripped
 GameObject:
@@ -5273,6 +5276,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7460281115511744611, guid: e9652c70bef87204aaf46cb1a2bd57c5, type: 3}
   m_PrefabInstance: {fileID: 825995871}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &825995873 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8119774230866636591, guid: e9652c70bef87204aaf46cb1a2bd57c5, type: 3}
+  m_PrefabInstance: {fileID: 825995871}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4363dcad25eff4f488699945dc607e5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &834889721
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6241,6 +6255,7 @@ MonoBehaviour:
   prevPage: {fileID: 1815182221}
   nextButton: {fileID: 518702208}
   prevButton: {fileID: 1745761711}
+  timer: {fileID: 825995873}
   wrongAnswer: {fileID: 1771497628}
 --- !u!1 &1060991041
 GameObject:
@@ -7913,6 +7928,7 @@ MonoBehaviour:
   prevPage: {fileID: 0}
   nextButton: {fileID: 730234088}
   prevButton: {fileID: 0}
+  timer: {fileID: 825995873}
   wrongAnswer: {fileID: 1838026517}
 --- !u!1 &1621696469
 GameObject:
@@ -9770,6 +9786,7 @@ MonoBehaviour:
   prevPage: {fileID: 289155}
   nextButton: {fileID: 1670159374}
   prevButton: {fileID: 554248921}
+  timer: {fileID: 825995873}
   wrongAnswer: {fileID: 2003216385}
 --- !u!1001 &1820037137
 PrefabInstance:
@@ -10471,6 +10488,7 @@ MonoBehaviour:
   prevPage: {fileID: 119988627}
   nextButton: {fileID: 1558694144}
   prevButton: {fileID: 59769344}
+  timer: {fileID: 825995873}
   wrongAnswer: {fileID: 745952028}
 --- !u!1 &1932596836
 GameObject:
@@ -11504,6 +11522,7 @@ MonoBehaviour:
   prevPage: {fileID: 1582264796}
   nextButton: {fileID: 1621696471}
   prevButton: {fileID: 221273049}
+  timer: {fileID: 825995873}
   wrongAnswer: {fileID: 855819233}
 --- !u!1001 &2128649901
 PrefabInstance:
