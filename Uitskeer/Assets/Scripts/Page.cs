@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 using UnityEngine.UIElements;
 
@@ -15,6 +16,7 @@ public class Page : MonoBehaviour
 
     [SerializeField] Timer timer;
     [SerializeField] GameObject wrongAnswer;
+    public UnityEvent onAnswerWrong;
 
     private List<IQuestion> questions = new List<IQuestion>();
 
@@ -87,6 +89,7 @@ public class Page : MonoBehaviour
             {
                 question.TurnRed();
                 timer.TimePenalty(60f);
+                onAnswerWrong.Invoke();
                 question.Reset();
             }
             else

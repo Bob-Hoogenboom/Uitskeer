@@ -61,15 +61,14 @@ public class Timer : MonoBehaviour
         }
         else if (currentTime > 0 && paused)
         {
-            
+            return;
         }
         else
         {
             currentTime = 0;
             SetTimer();
 
-            timerOverEffect();
-            onTimerEnd.Invoke();
+            TimerOverEffect();
         }
     }
 
@@ -80,8 +79,9 @@ public class Timer : MonoBehaviour
 
 
     //TODO add effects of timer running out
-    private void timerOverEffect()
+    public void TimerOverEffect()
     {
-
+        onTimerEnd.Invoke();
+        paused = true;
     }
 }
