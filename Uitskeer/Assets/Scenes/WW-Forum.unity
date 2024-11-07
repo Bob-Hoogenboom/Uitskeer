@@ -2629,7 +2629,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6979041699829137177, guid: 4655525d773685746b7a3660bbb5cfce, type: 3}
       propertyPath: m_text
-      value: nnxxxxx hn
+      value: xxxxnn hn
       objectReference: {fileID: 0}
     - target: {fileID: 7230550500944420679, guid: 4655525d773685746b7a3660bbb5cfce, type: 3}
       propertyPath: goodAnswer
