@@ -8654,8 +8654,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Je bent niet de enige,
 
-    <link="www.nationaleombudsman.nl/nieuws/artikel/2022/straatpraat-vindt-u-het-makkelijk-om-overheidszaken-digitaal-te-regelen"><color=#0000FF><u>Echt
-    Niet</u></color></link>'
+    <link="www.nationaleombudsman.nl/nieuws/artikel/2022/straatpraat-vindt-u-het-makkelijk-om-overheidszaken-digitaal-te-regelen"><color=#0000FF><u>''Echt
+    Niet''</u></color></link>'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -13441,7 +13441,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ohh. . .
+  m_text: Ohh. . . Should i try again?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -14416,8 +14416,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -960, y: 378}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -940.90393, y: 378.59677}
+  m_SizeDelta: {x: 360.5089, y: 28.8065}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2139341450
 MonoBehaviour:
@@ -14470,7 +14470,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
