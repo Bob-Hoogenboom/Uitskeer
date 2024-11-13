@@ -17,7 +17,5 @@ public class Complete : MonoBehaviour
         anim.SetTrigger("FadeOut");
 
         yield return new WaitForSeconds(transitionTime);
-
-        anim.SetTrigger("FadeIn");
     }
 }
