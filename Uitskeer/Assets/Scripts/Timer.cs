@@ -62,9 +62,7 @@ public class Timer : MonoBehaviour
         }
         else if (currentTime > 0 && paused)
         {
-            onTimerEnd.Invoke();
-            currentTime = 0;
-            SetTimer();
+            onTimerPause.Invoke();
         }
         else
         {
